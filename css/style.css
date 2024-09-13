@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ff7700;
+}
+
+.container{
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.navbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(241, 86, 8) ;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: hwb(166 10% 12%);
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #f1f1f1;
+}
+
+
+/*  Estilos para la card *//* Estilos para las tarjetas personalizadas */
+.card-custom {
+    border: 1px solid #0cac0c;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #66ff32f1;
+    max-width: 300px; 
+    width: 30%; 
+    flex-direction: column; 
+}
+
+.card-custom-img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.card-custom-body {
+    width: 100%;
+}
+
+.card-custom-title {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    color: #2a09e4;
+    text-align: center; 
+}
+
+.card-custom-type,
+.card-custom-year,
+.card-custom-ubication {
+    margin: 5px 0;
+    text-align: center; 
+}
+
+#movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.custom-navbar {
+    background-color: #4a90e2; /* Cambia el color de fondo de la barra de navegación */
+}
+
+.navbar-brand {
+    font-family: 'Sofadi One', cursive; /* Cambia el tipo de letra del título */
+    color: #ffffff; /* Cambia el color del texto del título */
+    text-align: center; /* Centra el título */
+}
